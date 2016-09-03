@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D508DE1D7AF3A60063F52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508DD1D7AF3A60063F52C /* main.m */; };
+		F3D508E11D7AF3A60063F52C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508E01D7AF3A60063F52C /* AppDelegate.m */; };
+		F3D508E41D7AF3A60063F52C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508E31D7AF3A60063F52C /* ViewController.m */; };
+		F3D508E71D7AF3A60063F52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D508E51D7AF3A60063F52C /* Main.storyboard */; };
+		F3D508E91D7AF3A60063F52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D508E81D7AF3A60063F52C /* Assets.xcassets */; };
+		F3D508EC1D7AF3A60063F52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D508EA1D7AF3A60063F52C /* LaunchScreen.storyboard */; };
+		F3D508F71D7AF3A70063F52C /* Robot_DriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508F61D7AF3A70063F52C /* Robot_DriverTests.m */; };
+		F3D509021D7AF3A70063F52C /* Robot_DriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D509011D7AF3A70063F52C /* Robot_DriverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D508F31D7AF3A70063F52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D508D11D7AF3A60063F52C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D508D81D7AF3A60063F52C;
+			remoteInfo = "Robot Driver";
+		};
+		F3D508FE1D7AF3A70063F52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D508D11D7AF3A60063F52C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D508D81D7AF3A60063F52C;
+			remoteInfo = "Robot Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3D508D91D7AF3A60063F52C /* Robot Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D508DD1D7AF3A60063F52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3D508DF1D7AF3A60063F52C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3D508E01D7AF3A60063F52C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3D508E21D7AF3A60063F52C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3D508E31D7AF3A60063F52C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3D508E61D7AF3A60063F52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D508E81D7AF3A60063F52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D508EB1D7AF3A60063F52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D508ED1D7AF3A60063F52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D508F21D7AF3A70063F52C /* Robot DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D508F61D7AF3A70063F52C /* Robot_DriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot_DriverTests.m; sourceTree = "<group>"; };
+		F3D508F81D7AF3A70063F52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D508FD1D7AF3A70063F52C /* Robot DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D509011D7AF3A70063F52C /* Robot_DriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot_DriverUITests.m; sourceTree = "<group>"; };
+		F3D509031D7AF3A70063F52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D508D61D7AF3A60063F52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508EF1D7AF3A70063F52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508FA1D7AF3A70063F52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D508D01D7AF3A60063F52C = {
+			isa = PBXGroup;
+			children = (
+				F3D508DB1D7AF3A60063F52C /* Robot Driver */,
+				F3D508F51D7AF3A70063F52C /* Robot DriverTests */,
+				F3D509001D7AF3A70063F52C /* Robot DriverUITests */,
+				F3D508DA1D7AF3A60063F52C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D508DA1D7AF3A60063F52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D508D91D7AF3A60063F52C /* Robot Driver.app */,
+				F3D508F21D7AF3A70063F52C /* Robot DriverTests.xctest */,
+				F3D508FD1D7AF3A70063F52C /* Robot DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D508DB1D7AF3A60063F52C /* Robot Driver */ = {
+			isa = PBXGroup;
+			children = (
+				F3D508DF1D7AF3A60063F52C /* AppDelegate.h */,
+				F3D508E01D7AF3A60063F52C /* AppDelegate.m */,
+				F3D508E21D7AF3A60063F52C /* ViewController.h */,
+				F3D508E31D7AF3A60063F52C /* ViewController.m */,
+				F3D508E51D7AF3A60063F52C /* Main.storyboard */,
+				F3D508E81D7AF3A60063F52C /* Assets.xcassets */,
+				F3D508EA1D7AF3A60063F52C /* LaunchScreen.storyboard */,
+				F3D508ED1D7AF3A60063F52C /* Info.plist */,
+				F3D508DC1D7AF3A60063F52C /* Supporting Files */,
+			);
+			path = "Robot Driver";
+			sourceTree = "<group>";
+		};
+		F3D508DC1D7AF3A60063F52C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D508DD1D7AF3A60063F52C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3D508F51D7AF3A70063F52C /* Robot DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D508F61D7AF3A70063F52C /* Robot_DriverTests.m */,
+				F3D508F81D7AF3A70063F52C /* Info.plist */,
+			);
+			path = "Robot DriverTests";
+			sourceTree = "<group>";
+		};
+		F3D509001D7AF3A70063F52C /* Robot DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D509011D7AF3A70063F52C /* Robot_DriverUITests.m */,
+				F3D509031D7AF3A70063F52C /* Info.plist */,
+			);
+			path = "Robot DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D508D81D7AF3A60063F52C /* Robot Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D509061D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot Driver" */;
+			buildPhases = (
+				F3D508D51D7AF3A60063F52C /* Sources */,
+				F3D508D61D7AF3A60063F52C /* Frameworks */,
+				F3D508D71D7AF3A60063F52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robot Driver";
+			productName = "Robot Driver";
+			productReference = F3D508D91D7AF3A60063F52C /* Robot Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3D508F11D7AF3A70063F52C /* Robot DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D509091D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverTests" */;
+			buildPhases = (
+				F3D508EE1D7AF3A70063F52C /* Sources */,
+				F3D508EF1D7AF3A70063F52C /* Frameworks */,
+				F3D508F01D7AF3A70063F52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D508F41D7AF3A70063F52C /* PBXTargetDependency */,
+			);
+			name = "Robot DriverTests";
+			productName = "Robot DriverTests";
+			productReference = F3D508F21D7AF3A70063F52C /* Robot DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3D508FC1D7AF3A70063F52C /* Robot DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D5090C1D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverUITests" */;
+			buildPhases = (
+				F3D508F91D7AF3A70063F52C /* Sources */,
+				F3D508FA1D7AF3A70063F52C /* Frameworks */,
+				F3D508FB1D7AF3A70063F52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D508FF1D7AF3A70063F52C /* PBXTargetDependency */,
+			);
+			name = "Robot DriverUITests";
+			productName = "Robot DriverUITests";
+			productReference = F3D508FD1D7AF3A70063F52C /* Robot DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D508D11D7AF3A60063F52C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "kettlepot Ventures Limited";
+				TargetAttributes = {
+					F3D508D81D7AF3A60063F52C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F3D508F11D7AF3A70063F52C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F3D508D81D7AF3A60063F52C;
+					};
+					F3D508FC1D7AF3A70063F52C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F3D508D81D7AF3A60063F52C;
+					};
+				};
+			};
+			buildConfigurationList = F3D508D41D7AF3A60063F52C /* Build configuration list for PBXProject "Robot Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D508D01D7AF3A60063F52C;
+			productRefGroup = F3D508DA1D7AF3A60063F52C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D508D81D7AF3A60063F52C /* Robot Driver */,
+				F3D508F11D7AF3A70063F52C /* Robot DriverTests */,
+				F3D508FC1D7AF3A70063F52C /* Robot DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D508D71D7AF3A60063F52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D508EC1D7AF3A60063F52C /* LaunchScreen.storyboard in Resources */,
+				F3D508E91D7AF3A60063F52C /* Assets.xcassets in Resources */,
+				F3D508E71D7AF3A60063F52C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508F01D7AF3A70063F52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508FB1D7AF3A70063F52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D508D51D7AF3A60063F52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D508E41D7AF3A60063F52C /* ViewController.m in Sources */,
+				F3D508E11D7AF3A60063F52C /* AppDelegate.m in Sources */,
+				F3D508DE1D7AF3A60063F52C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508EE1D7AF3A70063F52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D508F71D7AF3A70063F52C /* Robot_DriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D508F91D7AF3A70063F52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D509021D7AF3A70063F52C /* Robot_DriverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D508F41D7AF3A70063F52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D508D81D7AF3A60063F52C /* Robot Driver */;
+			targetProxy = F3D508F31D7AF3A70063F52C /* PBXContainerItemProxy */;
+		};
+		F3D508FF1D7AF3A70063F52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D508D81D7AF3A60063F52C /* Robot Driver */;
+			targetProxy = F3D508FE1D7AF3A70063F52C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3D508E51D7AF3A60063F52C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D508E61D7AF3A60063F52C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D508EA1D7AF3A60063F52C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D508EB1D7AF3A60063F52C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D509041D7AF3A70063F52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3D509051D7AF3A70063F52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D509071D7AF3A70063F52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3D509081D7AF3A70063F52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3D5090A1D7AF3A70063F52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Robot DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Driver.app/Robot Driver";
+			};
+			name = Debug;
+		};
+		F3D5090B1D7AF3A70063F52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Robot DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Driver.app/Robot Driver";
+			};
+			name = Release;
+		};
+		F3D5090D1D7AF3A70063F52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Robot DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Robot Driver";
+			};
+			name = Debug;
+		};
+		F3D5090E1D7AF3A70063F52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Robot DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kettlepotsoftware.Robot-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Robot Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D508D41D7AF3A60063F52C /* Build configuration list for PBXProject "Robot Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D509041D7AF3A70063F52C /* Debug */,
+				F3D509051D7AF3A70063F52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D509061D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D509071D7AF3A70063F52C /* Debug */,
+				F3D509081D7AF3A70063F52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3D509091D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D5090A1D7AF3A70063F52C /* Debug */,
+				F3D5090B1D7AF3A70063F52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3D5090C1D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D5090D1D7AF3A70063F52C /* Debug */,
+				F3D5090E1D7AF3A70063F52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D508D11D7AF3A60063F52C /* Project object */;
+}
