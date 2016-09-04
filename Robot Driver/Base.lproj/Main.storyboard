@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,151 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zZ-os-Qcl">
+                                <rect key="frame" x="112" y="99" width="100" height="100"/>
+                                <state key="normal" title="Forward" image="arrow_up.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="99" width="75" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="moveForward:" destination="BYZ-38-t0r" eventType="touchDown" id="Drs-h8-7He"/>
+                                    <action selector="stopForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0H-zT-JVq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6o-Tj-dgv">
+                                <rect key="frame" x="112" y="305" width="100" height="100"/>
+                                <state key="normal" title="Reverse" image="arrow_down.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="232" width="75" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="moveBackward:" destination="BYZ-38-t0r" eventType="touchDown" id="oyw-QG-5vL"/>
+                                    <action selector="stopBackward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oRf-H3-S2K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kw-MQ-rJ9">
+                                <rect key="frame" x="20" y="207" width="100" height="100"/>
+                                <state key="normal" title="Left" image="arrow_left.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="163" width="75" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="moveLeft:" destination="BYZ-38-t0r" eventType="touchDown" id="Lha-hn-QKP"/>
+                                    <action selector="stopLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cZ-dn-dUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mk-OA-Tw3">
+                                <rect key="frame" x="206" y="207" width="100" height="100"/>
+                                <state key="normal" title="Right" image="arrow_right.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="186" y="163" width="75" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="moveRight:" destination="BYZ-38-t0r" eventType="touchDown" id="tmW-P9-hIX"/>
+                                    <action selector="stopRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G93-03-cwp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-7E-Pfw">
+                                <rect key="frame" x="190" y="59" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="186" y="32" width="59" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpH-uX-8gE">
+                                <rect key="frame" x="20" y="54" width="63" height="46"/>
+                                <state key="normal" title="Menu"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="63" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnMenuTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSX-CK-wlS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMH-1b-8T5">
+                                <rect key="frame" x="36" y="113" width="30" height="30"/>
+                                <state key="normal" title="Test"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="74" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnSendTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVp-C6-c5R"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RX Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxy-ew-nvy">
+                                <rect key="frame" x="20" y="413" width="331" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="354" width="312" height="21"/>
+                                </variation>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jvz-bA-QGD">
+                                <rect key="frame" x="257" y="54" width="51" height="31"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="258" y="28" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeSpinner:" destination="BYZ-38-t0r" eventType="valueChanged" id="9hu-6w-fUe"/>
+                                </connections>
+                            </switch>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAd-Zn-nCb">
+                                <rect key="frame" x="5" y="49" width="400" height="433"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ihW-Wk-RD8">
+                                        <rect key="frame" x="75" y="18" width="296" height="397"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="NIw-ve-m5Y"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="4tE-c7-nlA"/>
+                                        </connections>
+                                    </tableView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtP-rg-0lU">
+                                        <rect key="frame" x="-13" y="18" width="92" height="30"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="btnBackFromDevices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oZ8-rO-S2c"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPa-Pb-e9c">
+                                        <rect key="frame" x="16" y="385" width="35" height="30"/>
+                                        <state key="normal" title="Scan"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="btnBackFromDevices" destination="LtP-rg-0lU" id="CWb-q8-g5h"/>
+                        <outlet property="btnMenu" destination="MpH-uX-8gE" id="4hr-UO-jqk"/>
+                        <outlet property="btnTest" destination="mMH-1b-8T5" id="Z9e-EQ-RT8"/>
+                        <outlet property="devicesView" destination="sAd-Zn-nCb" id="cb8-XY-RLF"/>
+                        <outlet property="driveBack" destination="Q6o-Tj-dgv" id="bno-Ok-hhn"/>
+                        <outlet property="driveForward" destination="6zZ-os-Qcl" id="Zq6-Zr-KnZ"/>
+                        <outlet property="driveLeft" destination="2kw-MQ-rJ9" id="vdq-NM-fr7"/>
+                        <outlet property="driveRight" destination="9mk-OA-Tw3" id="3TR-ou-5aj"/>
+                        <outlet property="lblRXData" destination="Cxy-ew-nvy" id="S5J-bc-Hku"/>
+                        <outlet property="scanForDevices" destination="jPa-Pb-e9c" id="bhG-rX-Dof"/>
+                        <outlet property="tableView" destination="ihW-Wk-RD8" id="J3a-bq-Hqn"/>
+                        <outlet property="toggleSpinner" destination="jvz-bA-QGD" id="brQ-uv-ggK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="63" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow_down.png" width="999" height="999"/>
+        <image name="arrow_left.png" width="999" height="999"/>
+        <image name="arrow_right.png" width="999" height="999"/>
+        <image name="arrow_up.png" width="999" height="999"/>
+    </resources>
 </document>

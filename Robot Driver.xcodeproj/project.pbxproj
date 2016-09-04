@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F38DEE0F1D7C4513007838BF /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F38DEE0B1D7C4513007838BF /* arrow_down.png */; };
+		F38DEE101D7C4513007838BF /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = F38DEE0C1D7C4513007838BF /* arrow_left.png */; };
+		F38DEE111D7C4513007838BF /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = F38DEE0D1D7C4513007838BF /* arrow_right.png */; };
+		F38DEE121D7C4513007838BF /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F38DEE0E1D7C4513007838BF /* arrow_up.png */; };
 		F3D508DE1D7AF3A60063F52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508DD1D7AF3A60063F52C /* main.m */; };
 		F3D508E11D7AF3A60063F52C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508E01D7AF3A60063F52C /* AppDelegate.m */; };
 		F3D508E41D7AF3A60063F52C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508E31D7AF3A60063F52C /* ViewController.m */; };
@@ -15,6 +19,9 @@
 		F3D508EC1D7AF3A60063F52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D508EA1D7AF3A60063F52C /* LaunchScreen.storyboard */; };
 		F3D508F71D7AF3A70063F52C /* Robot_DriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D508F61D7AF3A70063F52C /* Robot_DriverTests.m */; };
 		F3D509021D7AF3A70063F52C /* Robot_DriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D509011D7AF3A70063F52C /* Robot_DriverUITests.m */; };
+		F3D509101D7AF4AF0063F52C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5090F1D7AF4AF0063F52C /* CoreBluetooth.framework */; };
+		F3D509141D7B07C60063F52C /* iPadCarduinoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D509111D7B07C60063F52C /* iPadCarduinoTableCell.xib */; };
+		F3D509151D7B07C60063F52C /* CarduinoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D509131D7B07C60063F52C /* CarduinoViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F38DEE0B1D7C4513007838BF /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_down.png; path = ../../../../../Downloads/arrow_down.png; sourceTree = "<group>"; };
+		F38DEE0C1D7C4513007838BF /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left.png; path = ../../../../../Downloads/arrow_left.png; sourceTree = "<group>"; };
+		F38DEE0D1D7C4513007838BF /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right.png; path = ../../../../../Downloads/arrow_right.png; sourceTree = "<group>"; };
+		F38DEE0E1D7C4513007838BF /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_up.png; path = ../../../../../Downloads/arrow_up.png; sourceTree = "<group>"; };
 		F3D508D91D7AF3A60063F52C /* Robot Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D508DD1D7AF3A60063F52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3D508DF1D7AF3A60063F52C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		F3D508FD1D7AF3A70063F52C /* Robot DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D509011D7AF3A70063F52C /* Robot_DriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot_DriverUITests.m; sourceTree = "<group>"; };
 		F3D509031D7AF3A70063F52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D5090F1D7AF4AF0063F52C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F3D509111D7B07C60063F52C /* iPadCarduinoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPadCarduinoTableCell.xib; path = "../../../../../Downloads/Carduino-master/Carduino/iPadCarduinoTableCell.xib"; sourceTree = "<group>"; };
+		F3D509121D7B07C60063F52C /* CarduinoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarduinoViewCell.h; path = "../../../../../Downloads/Carduino-master/Carduino/CarduinoViewCell.h"; sourceTree = "<group>"; };
+		F3D509131D7B07C60063F52C /* CarduinoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarduinoViewCell.m; path = "../../../../../Downloads/Carduino-master/Carduino/CarduinoViewCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D509101D7AF4AF0063F52C /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 		F3D508D01D7AF3A60063F52C = {
 			isa = PBXGroup;
 			children = (
+				F3D5090F1D7AF4AF0063F52C /* CoreBluetooth.framework */,
 				F3D508DB1D7AF3A60063F52C /* Robot Driver */,
 				F3D508F51D7AF3A70063F52C /* Robot DriverTests */,
 				F3D509001D7AF3A70063F52C /* Robot DriverUITests */,
@@ -109,6 +126,9 @@
 				F3D508E81D7AF3A60063F52C /* Assets.xcassets */,
 				F3D508EA1D7AF3A60063F52C /* LaunchScreen.storyboard */,
 				F3D508ED1D7AF3A60063F52C /* Info.plist */,
+				F3D509111D7B07C60063F52C /* iPadCarduinoTableCell.xib */,
+				F3D509121D7B07C60063F52C /* CarduinoViewCell.h */,
+				F3D509131D7B07C60063F52C /* CarduinoViewCell.m */,
 				F3D508DC1D7AF3A60063F52C /* Supporting Files */,
 			);
 			path = "Robot Driver";
@@ -117,6 +137,10 @@
 		F3D508DC1D7AF3A60063F52C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F38DEE0B1D7C4513007838BF /* arrow_down.png */,
+				F38DEE0C1D7C4513007838BF /* arrow_left.png */,
+				F38DEE0D1D7C4513007838BF /* arrow_right.png */,
+				F38DEE0E1D7C4513007838BF /* arrow_up.png */,
 				F3D508DD1D7AF3A60063F52C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,8 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38DEE101D7C4513007838BF /* arrow_left.png in Resources */,
 				F3D508EC1D7AF3A60063F52C /* LaunchScreen.storyboard in Resources */,
+				F38DEE111D7C4513007838BF /* arrow_right.png in Resources */,
+				F3D509141D7B07C60063F52C /* iPadCarduinoTableCell.xib in Resources */,
 				F3D508E91D7AF3A60063F52C /* Assets.xcassets in Resources */,
+				F38DEE0F1D7C4513007838BF /* arrow_down.png in Resources */,
+				F38DEE121D7C4513007838BF /* arrow_up.png in Resources */,
 				F3D508E71D7AF3A60063F52C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D508E41D7AF3A60063F52C /* ViewController.m in Sources */,
+				F3D509151D7B07C60063F52C /* CarduinoViewCell.m in Sources */,
 				F3D508E11D7AF3A60063F52C /* AppDelegate.m in Sources */,
 				F3D508DE1D7AF3A60063F52C /* main.m in Sources */,
 			);
@@ -498,6 +528,7 @@
 				F3D509081D7AF3A70063F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D509091D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +537,7 @@
 				F3D5090B1D7AF3A70063F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D5090C1D7AF3A70063F52C /* Build configuration list for PBXNativeTarget "Robot DriverUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +546,7 @@
 				F3D5090E1D7AF3A70063F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
